@@ -40,7 +40,7 @@ for /f "tokens=*" %%G in ('dir /b /a:d "%binPath%\pixivutil*"') do set "pixivPat
 echo pixiv path: %pixivPath%
 
 pushd "%pixivPath%"
-PixivUtil2.exe -s 6 -p y --sp=%startPage% --ep=%endPage%
+PixivUtil2.exe --start_action 6 --bookmark_flag y --start_page %startPage% --end_page %endPage%
 popd
 
 @ECHO ON
