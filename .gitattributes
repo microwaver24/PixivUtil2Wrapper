@@ -1,1 +1,4 @@
-*.ini text working-tree-encoding=UTF-16 eol=CRLF
+[attr]utf16 text working-tree-encoding=UTF-16 eol=CRLF
+
+*.ini utf16
+**/slideshow.txt utf16
